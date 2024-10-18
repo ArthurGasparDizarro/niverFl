@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-image: url('./img/stitch_and_angel.jpg'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Para cobrir todo o contêiner */
+    background-position: center;
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    background: #e20c90d3;
+    border-radius: 130px;
+    color: rgb(82, 0, 158);
+    border: none;
+    font-weight: bold;
+}
+
+#message {
+    width: 360px;
+    margin-top: 20px;
+    font-size: 24px;
+    background: #6fc8f175;
+    border-radius: 15px;
+    color:rgb(255, 0, 76) ;
+    font-family: "Pacifico", cursive;
+}
+
+  
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
+.hidden {
+    display: none; /* Esconde a mensagem inicialmente */
+}
